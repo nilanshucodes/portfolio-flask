@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+  <h1>Resume</h1>
+  <div class="card">
+    {% if True %}
+      <object class="pdf-embed" data="{{ url_for('static', filename='images/blank.pdf') }}" type="application/pdf" aria-label="Resume PDF"></object>
+    {% endif %}
+    <p>Your resume opens in-browser on most devices. If it doesn't, use the button below.</p>
+    <a class="btn primary" href="{{ url_for('download_resume') }}">Download PDF</a>
+  </div>
+  <script>
+    // Try to embed the real PDF if same-origin
+    (function(){
+      var el = document.querySelector('.pdf-embed');
+      if(el){
+        el.setAttribute('data', '{{ url_for("download_resume") }}'.replace('/download/', '/resume/').replace('download','resume'));
+      }
+    })();
+  </script>
+{% endblock %}

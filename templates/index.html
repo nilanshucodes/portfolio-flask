@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <div class="card">
+    <h1>{{ profile.role }}</h1>
+    <p>{{ profile.summary }}</p>
+    <div style="margin:16px 0">
+      <a class="btn primary" href="{{ url_for('projects') }}">View Projects</a>
+      <a class="btn" href="{{ url_for('download_resume') }}">Download Resume</a>
+    </div>
+    <div>
+      <strong>Find me:</strong>
+      {% for label, url in profile.social.items() %}
+        · <a href="{{ url }}" target="_blank" rel="noopener">{{ label }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="card">
+    <h2>Skills</h2>
+    <div class="skills">
+      {% for skill in profile.skills %}
+        <span class="chip">{{ skill }}</span>
+      {% endfor %}
+    </div>
+    <h2>Education</h2>
+    <ul>
+      {% for edu in profile.education %}
+        <li><strong>{{ edu.degree }}</strong> — {{ edu.school }} ({{ edu.years }}) <em>{{ edu.notes }}</em></li>
+      {% endfor %}
+    </ul>
+    <h2>Highlights</h2>
+    <ul>
+      {% for h in profile.highlights %}
+        <li>{{ h }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+{% endblock %}

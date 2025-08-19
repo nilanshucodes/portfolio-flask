@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+  <h1>Projects</h1>
+  <div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(280px,1fr))">
+    {% for p in profile.projects %}
+      <div class="card project-card">
+        <h3>{{ p.title }}</h3>
+        <div class="project-meta">{{ p.year }} · {{ ", ".join(p.stack) }}</div>
+        <p>{{ p.description }}</p>
+        <div>
+          {% if p.links.Repo %}<a class="btn" href="{{ p.links.Repo }}" target="_blank">Repository</a>{% endif %}
+          {% if p.links.Demo %}<a class="btn" href="{{ p.links.Demo }}" target="_blank">Live Demo</a>{% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}

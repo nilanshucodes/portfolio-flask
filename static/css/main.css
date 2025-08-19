@@ -1,0 +1,27 @@
+:root{
+  --accent:#2563eb;
+}
+*{box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;margin:0;background:#0b0f19;color:#e5e7eb}
+a{color:var(--accent);text-decoration:none}
+header{position:sticky;top:0;background:#0b0f19d9;backdrop-filter:saturate(140%) blur(8px);border-bottom:1px solid #1f2937}
+.container{max-width:1000px;margin:0 auto;padding:20px}
+.nav{display:flex;gap:16px;align-items:center;justify-content:space-between}
+.brand{font-weight:700;letter-spacing:.3px}
+.links a{padding:8px 10px;border-radius:8px}
+.links a:hover{background:#111827}
+.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;padding:48px 0;align-items:center}
+.card{background:#0f172a;border:1px solid #1f2937;border-radius:16px;padding:18px;box-shadow:0 8px 20px rgba(0,0,0,.25)}
+h1{font-size:36px;margin:.2em 0 .4em}
+h2{font-size:22px;margin:1.5em 0 .6em}
+ul{padding-left:18px}
+.grid{display:grid;gap:16px}
+.skills{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1px solid #374151;border-radius:999px;padding:6px 10px;font-size:14px;background:#0b1220}
+.footer{color:#9ca3af;border-top:1px solid #1f2937;margin-top:32px;padding:16px 0}
+.btn{display:inline-block;padding:10px 14px;border-radius:10px;border:1px solid #374151}
+.btn.primary{background:var(--accent);color:white;border-color:var(--accent)}
+.project-card h3{margin:.2em 0}
+.project-meta{font-size:14px;color:#9ca3af}
+.pdf-embed{width:100%;height:80vh;border:none;border-radius:12px;overflow:hidden}
+@media(max-width:900px){.hero{grid-template-columns:1fr}}

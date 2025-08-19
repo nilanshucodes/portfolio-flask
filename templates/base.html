@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ profile.name if profile else "Portfolio" }} — Portfolio</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+  <meta name="description" content="Personal portfolio of {{ profile.name if profile else '' }}">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand"><a href="{{ url_for('index') }}">{{ profile.name if profile else "Portfolio" }}</a></div>
+      <nav class="links">
+          <a href="{{ url_for('index') }}">Home</a>
+          <a href="{{ url_for('projects') }}">Projects</a>
+          <a href="{{ url_for('resume') }}">Resume</a>
+          <a href="mailto:{{ profile.email if profile else '' }}">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="container footer">
+    © {{ profile.name if profile else "Me" }} · Built with Flask · <a href="{{ profile.social.GitHub if profile else '#' }}">GitHub</a>
+  </footer>
+</body>
+</html>

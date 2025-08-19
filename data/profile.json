@@ -1,0 +1,68 @@
+{
+  "name": "Nilanshu Sharma",
+  "role": "B.Tech CSE Undergraduate \u2022 Full\u2011Stack Learner",
+  "location": "Chennai, India",
+  "email": "ns2630@srmist.edu.in",
+  "phone": "7878173953",
+  "summary": "Computer Science undergraduate at SRM KTR (SGPA 9.18). Proficient in C++, Python, and Flask. Passionate about backend development, problem solving, and building civic\u2011tech products like complaint management systems.",
+  "social": {
+    "GitHub": "https://github.com/nilanshucodes",
+    "LinkedIn": "https://www.linkedin.com/in/nilanshusharma",
+    "LeetCode": "https://leetcode.com/u/nilanshucodes/",
+    "HackerRank": "https://www.hackerrank.com/profile/nilanshucodes"
+  },
+  "skills": [
+    "C++",
+    "Python",
+    "Flask",
+    "C",
+    "Java",
+    "MySQL",
+    "Git/GitHub",
+    "HTML",
+    "CSS",
+    "Figma",
+    "AutoCAD"
+  ],
+  "education": [
+    {
+      "degree": "B.Tech, Computer Science and Engineering (Core)",
+      "school": "SRM Institute of Science and Technology, Kattankulathur (KTR)",
+      "years": "2024 \u2013 2028",
+      "notes": "SGPA: 9.18"
+    }
+  ],
+  "highlights": [
+    "HackerRank 5\u2011star C++",
+    "Top 25 in \u2018Hack The Cosmos \u201925\u2019 by CSI SRM"
+  ],
+  "projects": [
+    {
+      "title": "Project Samadhan",
+      "stack": [
+        "Flask",
+        "HTML",
+        "CSS",
+        "Leaflet.js"
+      ],
+      "year": "2025",
+      "description": "A web-based complaint management system for public infrastructure issues with AI\u2011assisted descriptions, geotagging, status tracking, and admin approvals.",
+      "links": {
+        "Repo": "https://github.com/nilanshucodes",
+        "Demo": ""
+      }
+    },
+    {
+      "title": "Credit Card Number Checker",
+      "stack": [
+        "C++"
+      ],
+      "year": "2025",
+      "description": "Implements the Luhn algorithm to validate credit card numbers with digit doubling and checksum verification.",
+      "links": {
+        "Repo": "",
+        "Demo": ""
+      }
+    }
+  ]
+}
