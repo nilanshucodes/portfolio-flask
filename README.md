@@ -41,4 +41,4 @@ Open http://127.0.0.1:5000
 
 ---
 
-**Tip:** Keep your `profile.json` short and focused. Link to GitHub/LinkedIn for details.
+**Tip:** Keep your `profile.json` short and focused. 
