@@ -4,7 +4,7 @@
   "location": "Chennai, India",
   "email": "ns2630@srmist.edu.in",
   "phone": "7878173953",
-  "summary": "Computer Science undergraduate at SRM KTR (SGPA 9.18). Proficient in C++, Python, and Flask. Passionate about backend development, problem solving, and building civic\u2011tech products like complaint management systems.",
+  "summary": "Computer Science undergraduate at SRM KTR (CGPA 9.18). Proficient in C++, Python, and Flask. Passionate about backend development, problem solving, and building civic\u2011tech products like complaint management systems.",
   "social": {
     "GitHub": "https://github.com/nilanshucodes",
     "LinkedIn": "https://www.linkedin.com/in/nilanshusharma",
@@ -29,7 +29,7 @@
       "degree": "B.Tech, Computer Science and Engineering (Core)",
       "school": "SRM Institute of Science and Technology, Kattankulathur (KTR)",
       "years": "2024 \u2013 2028",
-      "notes": "SGPA: 9.18"
+      "notes": "CGPA: 9.18"
     }
   ],
   "highlights": [
@@ -60,7 +60,7 @@
       "year": "2025",
       "description": "Implements the Luhn algorithm to validate credit card numbers with digit doubling and checksum verification.",
       "links": {
-        "Repo": "",
+        "Repo": "https://github.com/nilanshucodes/hash-it-out/blob/main/luhnalgo.cpp",
         "Demo": ""
       }
     }
