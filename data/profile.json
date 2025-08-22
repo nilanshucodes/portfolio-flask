@@ -4,7 +4,7 @@
   "location": "Chennai, India",
   "email": "ns2630@srmist.edu.in",
   "phone": "7878173953",
-  "summary": "Computer Science undergraduate at SRM KTR (CGPA 9.18). Proficient in C++, Python, and Flask. Passionate about backend development, problem solving, and building civic\u2011tech products like complaint management systems.",
+  "summary": "Computer Science undergraduate at SRM KTR (CGPA 9.16). Proficient in C++, Python, and Flask. Passionate about backend development, problem solving, and building civic\u2011tech products like complaint management systems.",
   "social": {
     "GitHub": "https://github.com/nilanshucodes",
     "LinkedIn": "https://www.linkedin.com/in/nilanshusharma",
@@ -48,9 +48,10 @@
       "year": "2025",
       "description": "A web-based complaint management system for public infrastructure issues with AI\u2011assisted descriptions, geotagging, status tracking, and admin approvals.",
       "links": {
-        "Repo": "https://github.com/nilanshucodes",
+        "Repo": "",
         "Demo": ""
-      }
+      },
+      "status": "🚧 In the making..."
     },
     {
       "title": "Credit Card Number Checker",
