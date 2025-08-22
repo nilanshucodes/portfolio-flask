@@ -8,9 +8,13 @@
         <div class="project-meta">{{ p.year }} · {{ ", ".join(p.stack) }}</div>
         <p>{{ p.description }}</p>
         <div>
-          {% if p.links.Repo %}<a class="btn" href="{{ p.links.Repo }}" target="_blank">Repository</a>{% endif %}
-          {% if p.links.Demo %}<a class="btn" href="{{ p.links.Demo }}" target="_blank">Live Demo</a>{% endif %}
-          {% elif p.status %} <span class="btn">{{ p.status }}</span> {% endif %}
+          {% if p.links.Repo %}
+            <a class="btn" href="{{ p.links.Repo }}" target="_blank">Repository</a>
+          {% elif p.links.Demo %}
+            <a class="btn" href="{{ p.links.Demo }}" target="_blank">Live Demo</a>
+          {% elif p.status is defined %}
+            <span class="btn">{{ p.status }}</span>
+          {% endif %}
         </div>
       </div>
     {% endfor %}
