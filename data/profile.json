@@ -65,6 +65,21 @@
         "Repo": "https://github.com/nilanshucodes/hash-it-out/blob/main/luhnalgo.cpp",
         "Demo": ""
       }
+    },
+    {
+      "title": "Portfolio website",
+      "stack": [
+        "Flask",
+        "HTML",
+        "CSS"
+      ],
+      "year": "2025",
+      "description": "portfolio website presents a collection of projects that demonstrate strong skills in web development, problem-solving, and programming. It provides a clear and professional overview of my technical abilities, with links to explore my work and access source code.",
+      "links": {
+        "Repo": "https://github.com/nilanshucodes/portfolio-flask",
+        "Demo": "https://portfolio-flask-76js.onrender.com/"
+      },
+      "status": "Deployed!"
     }
   ]
 }
