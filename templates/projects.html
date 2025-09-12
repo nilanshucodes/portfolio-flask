@@ -10,9 +10,9 @@
         <div>
           {% if p.links.Repo %}
             <a class="btn" href="{{ p.links.Repo }}" target="_blank">Repository</a>
-          {% elif p.links.Demo %}
+          {% if p.links.Demo %}
             <a class="btn" href="{{ p.links.Demo }}" target="_blank">Live Demo</a>
-          {% elif p.status is defined %}
+          {% if p.status is defined %}
             <span class="btn">{{ p.status }}</span>
           {% endif %}
         </div>
