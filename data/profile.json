@@ -78,8 +78,7 @@
       "links": {
         "Repo": "https://github.com/nilanshucodes/portfolio-flask",
         "Demo": "https://portfolio-flask-76js.onrender.com/"
-      },
-      "status": "Deployed!"
+      }
     }
   ]
 }
