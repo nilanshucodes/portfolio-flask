@@ -1,15 +1,16 @@
 {
   "name": "Nilanshu Sharma",
-  "role": "B.Tech CSE Undergraduate \u2022 Full\u2011Stack Learner",
+  "role": "B.Tech CSE Undergraduate \u2022 Backend\u2011Enthusiast",
   "location": "Chennai, India",
   "email": "ns2630@srmist.edu.in",
   "phone": "7878173953",
-  "summary": "Computer Science undergraduate at SRM KTR (CGPA 9.16). Proficient in C++, Python, and Flask. Passionate about backend development, problem solving, and building civic\u2011tech products like complaint management systems.",
+  "summary": "Computer Science undergraduate at SRM KTR (CGPA 9.16). Proficient in C++, Python, and Flask. Passionate about backend development, Competetive Programming, and building civic\u2011tech products like complaint management systems.",
   "social": {
     "GitHub": "https://github.com/nilanshucodes",
     "LinkedIn": "https://www.linkedin.com/in/nilanshusharma",
     "LeetCode": "https://leetcode.com/u/nilanshucodes/",
-    "HackerRank": "https://www.hackerrank.com/profile/nilanshucodes"
+    "HackerRank": "https://www.hackerrank.com/profile/nilanshucodes",
+    "CodeForces": "https://codeforces.com/profile/nilanshucodes"
   },
   "skills": [
     "C++",
