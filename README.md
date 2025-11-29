@@ -21,24 +21,4 @@ Open http://127.0.0.1:5000
 - Tweak styles in `static/css/main.css`.
 - Add screenshots to `static/images/` and link them from `projects.html` as needed.
 
-## Deploy on Render (Free)
-
-1. Push this folder to a new GitHub repo.
-2. On [Render](https://render.com), create **New > Web Service** and connect your repo.
-3. Set:
-   - **Build Command**: `pip install -r requirements.txt`
-   - **Start Command**: `gunicorn app:app`
-   - **Region**: closest to your users
-4. Add environment variable (optional): `PYTHON_VERSION=3.11`
-5. Deploy. Render will give you a public URL.
-
-## Deploy on Railway (Alternative)
-
-1. Push to GitHub.
-2. On [Railway](https://railway.app), create a new project from the repo.
-3. Set the start command: `gunicorn app:app` and add a Python environment.
-4. Deploy.
-
----
-
 **Tip:** Keep your `profile.json` short and focused. 
