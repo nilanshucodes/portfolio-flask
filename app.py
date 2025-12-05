@@ -25,7 +25,7 @@ def resume():
 
 @app.route("/download/resume")
 def download_resume():
-    return send_from_directory(directory="resume", path="Nilanshu_RESUME_232.pdf", as_attachment=True)
+    return send_from_directory(directory="resume", path="Nilanshu - Software Developer.pdf", as_attachment=True)
 
 @app.errorhandler(404)
 def not_found(e):
