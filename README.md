@@ -17,7 +17,7 @@ Open http://127.0.0.1:5000
 ## Customize
 
 - Edit `data/profile.json` to update name, skills, projects, and links.
-- Replace `resume/Nilanshu_RESUME_232.pdf` with your latest resume (keep the same filename or update the route in `app.py`).
+- Replace `resume/Nilanshu - Software Developer.pdf` with your latest resume (keep the same filename or update the route in `app.py`).
 - Tweak styles in `static/css/main.css`.
 - Add screenshots to `static/images/` and link them from `projects.html` as needed.
 
