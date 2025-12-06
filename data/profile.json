@@ -3,8 +3,7 @@
   "role": "B.Tech CSE Undergraduate \u2022 Backend\u2011Enthusiast",
   "location": "Chennai, India",
   "email": "ns2630@srmist.edu.in",
-  "phone": "7878173953",
-  "summary": "Computer Science undergraduate at SRM KTR (CGPA 9.16). Proficient in C++, Python, and Flask. Passionate about backend development, Competetive Programming, and building civic\u2011tech products like complaint management systems.",
+  "summary": "Computer Science undergraduate at SRM KTR (CGPA 9.16). Proficient in C++, Python, and Flask. Passionate about backend development, Competetive Programming",
   "social": {
     "GitHub": "https://github.com/nilanshucodes",
     "LinkedIn": "https://www.linkedin.com/in/nilanshusharma",
@@ -22,7 +21,12 @@
     "HTML",
     "CSS",
     "Figma",
-    "AutoCAD"
+    "AutoCAD",
+    "Linux",
+    "Docker",
+    "CI/CD",
+    "GitHub Actions "
+    
   ],
   "education": [
     {
@@ -54,15 +58,19 @@
       "status": "🚧 In the making..."
     },
     {
-      "title": "Credit Card Number Checker",
+      "title": "AlgoRadar",
       "stack": [
-        "C++"
+        "Flask (Python)",
+        "PostgreSQL",
+        "Vanilla JavaScript",
+        "CSS3",
+        "CList API v2"
       ],
       "year": "2025",
-      "description": "Implements the Luhn algorithm to validate credit card numbers with digit doubling and checksum verification.",
+      "description": "A modern, lightweight competitive programming contest tracker that aggregates upcoming contests from multiple platforms in one clean interface.",
       "links": {
-        "Repo": "https://github.com/nilanshucodes/hash-it-out/blob/main/luhnalgo.cpp",
-        "Demo": ""
+        "Repo": "",
+        "Demo": "https://algo-radar.vercel.app/"
       }
     },
     {
@@ -76,7 +84,7 @@
       "description": "This provides a clear and professional overview of my technical abilities, with links to explore my work and access source code.",
       "links": {
         "Repo": "https://github.com/nilanshucodes/portfolio-flask",
-        "Demo": "https://portfolio-flask-76js.onrender.com/"
+        "Demo": "https://nilanshusharma.vercel.app/"
       }
     }
   ]
